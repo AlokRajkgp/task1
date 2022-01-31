@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <link rel="stylesheet" media="screen and (max-width: 491px )" href="phone1.css">
+    <style>
+        body{
+            color: white;
+        }
+        .navbar {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .navbar::before {
+            content: "";
+            background-color: black;
+            position: absolute;
+            height: 8%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        ul li {
+
+            list-style: none;
+            font-size: 1.5rem;
+
+
+        }
+
+        ul li a {
+            display: block;
+            padding: 3px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: white;
+        }
+
+        ul li a:hover {
+
+            color: black;
+            background-color: white;
+        }
+
+        #home::before {
+            content: "";
+            background: url('wp4111269.jpg') no-repeat center center/cover;
+           
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.9;
+        }
+
+        img {
+            width: 20%;
+            border: 2px solid red;
+            border-radius: 150px
+        }
+
+        .myself {
+            display: flex;
+            justify-content: center;
+
+            padding: 95px;
+        }
+        .info{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        table{
+            font-size: 2rem;
+            border: 2px solid cyan;
+            align-self: center;
+        }
+        
+        .onfo{
+            margin-left: auto;
+            margin-right: auto;
+            grid-row: 1px;
+            grid-column: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="item"><a href="alok4.html">Home</a></li>
+            <li class="item"><a href="birth.html">Birth</a></li>
+            <li class="item"><a href="#school">School</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="myself">
+            <img src="alok.jpg" alt="">
+        </div>
+     
+            <table class="onfo" border="1px">
+                <tr>
+                    <th>Name</th>
+                    <th>Education</th>
+                    <th>Age</th>
+                    <th>Residence</th>
+                </tr>
+                <tr>
+                    <td class="ifo1">Alok Raj</td>
+                    <td class="ifo1">Btech 1st year</td>
+                    <td class="ifo1">18 yrs.</td>
+                    <td class="ifo1">Ranchi, Jharkhand</td>
+                </tr>
+            </table>
+        
+    </section>
+</body>
+
+</html>

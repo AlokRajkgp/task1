@@ -1,0 +1,14 @@
+body {
+    
+    font-size: 1.5rem;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+table td{
+    font-size: 1rem;
+}
+table th{
+    font-size: 1.5rem;
+}
